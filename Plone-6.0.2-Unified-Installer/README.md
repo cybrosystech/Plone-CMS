@@ -21,7 +21,7 @@ To install Plone 6.0.2 Follow the below instructions
 
 
 ```
-wget https://github.com/cybrosystech/Plone-6.0.2-Unified-Installer/raw/main/Plone-6.0.2-Unified-Installer
+wget https://github.com/cybrosystech/Plone-CMS/raw/main/Plone-6.0.2-Unified-Installer/Plone-6.0.2-Unified-Installer
 ```
 
 

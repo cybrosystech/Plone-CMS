@@ -1,0 +1,23 @@
+{
+  "name": "@cybroplone/circle-countdown-block",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "keywords": [
+    "volto-addon",
+    "volto",
+    "plone",
+    "react"
+  ],
+  "scripts": {
+    "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon"
+  },
+  "devDependencies": {
+    "@plone/scripts": "*"
+  },
+  "dependencies": {
+    "react-color": "2.19.3",
+    "react-countdown-circle-timer": "3.2.1",
+    "reactcss": "1.2.3"
+  }
+}

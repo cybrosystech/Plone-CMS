@@ -1,0 +1,21 @@
+.time {
+  font-size: 32px;
+}
+
+.timer-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  font-family: sans-serif;
+  gap: 5px;
+  text-align: center;
+}
+
+.timer-title {
+  text-align: center;
+}
+
+.endMessage {
+  font-style: italic;
+}

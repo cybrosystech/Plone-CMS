@@ -23,4 +23,41 @@ The "Circle Countdown Block" is a Volto add-on block that provides a circular co
 
 ![Screenshot from 2023-04-17 16-28-55](https://user-images.githubusercontent.com/129945593/232465482-ced7c7d8-87aa-45af-8c73-ef89b4afca11.png)
 
+## Installation
+
+Create a new Volto project (you can skip this step if you already have one):
+
+```
+npm install -g yo @plone/generator-volto
+yo @plone/volto my-volto-project --addon @cybroplone/circle-countdown-block
+cd my-volto-project
+```
+
+Add `@cybroplone/circle-countdown-block`to your package.json:
+
+```
+"addons": [
+    "@cybroplone/circle-countdown-block"
+],
+
+"dependencies": {
+    "@cybroplone/circle-countdown-block": "*"
+}
+```
+
+Download and install the new add-on by running:
+
+```
+yarn install
+```
+
+Start Volto with:
+
+```
+yarn start
+```
+
+  Go to http://localhost:3000, login, create a new page. The countdown block will show up in the Volto blocks chooser.
+
+
 

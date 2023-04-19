@@ -4,14 +4,14 @@
 ![branch badge](https://badgen.net/badge/main/passing/green)
 
 
-# volto-circle-countdown-block
+# Volto Circle Countdown Block
 
 The "Circle Countdown Block" is a Volto add-on block that provides a circular countdown display. This block can be added to any Volto-based website or application to display a real-time countdown timer in a visually appealing circular format. Users can configure the timer to countdown to a specific date and time, and can also customize the colors and size of the countdown display to fit their specific design needs. This block is easy to install and use, and can add a valuable interactive element to any Volto-based project.
 # Features
 
-1. Customizable design: Users can customize the size and color of the countdown display to fit their specific design needs.Customize the look and feel of your buttons from the Volto sidebar.
-2. Choose from a variety of pre-set colors and create your own custom style.
-3. Users can configure the timer to countdown to a specific date and time, making it useful for various scenarios such as product launches, events, and promotions.
+- Customizable design: Users can customize the size and color of the countdown display to fit their specific design needs.Customize the look and feel of your buttons from the Volto sidebar.
+- Choose from a variety of pre-set colors and create your own custom style.
+- Users can configure the timer to countdown to a specific date and time, making it useful for various scenarios such as product launches, events, and promotions.
 
 # Screenshots
 

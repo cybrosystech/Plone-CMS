@@ -14,7 +14,7 @@ Volto Dark Reader is a Volto add-on that enables users to switch the Volto appli
 - Enables users to switch the Volto application from light mode to dark mode.
 - Uses the React Dark Reader package to provide the dark mode functionality.
 - Includes React Icons for displaying the dark mode toggle icon.
-- Adds a button in the header of the Volto site to toggle between dark mode and   light mode.
+- Adds a button in the header of the Volto site to toggle between dark mode and light mode.
 - Provides a better viewing experience in low-light environments or at night.
 - Helps to reduce eye strain and fatigue caused by prolonged screen time.
 - Easy to install and integrate into Volto projects.
@@ -43,7 +43,7 @@ yo @plone/volto my-volto-project --addon @cybroplone/volto-dark-reader
 cd my-volto-project
 ```
 
-Add `@cybroplone/customizable-link-button`to your package.json:
+Add ``to your package.json:
 
 ```
 "addons": [

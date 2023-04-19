@@ -31,4 +31,42 @@ Volto Dark Reader has two dependencies:
 
 # Screenshot
 
+![Screenshot from 2023-04-19 12-47-47](https://user-images.githubusercontent.com/129945593/232997969-b682b4eb-cea0-4242-adb0-4da9a649eff4.png)
 ![dark-reader (1)](https://user-images.githubusercontent.com/129945593/232989200-2d79eb4b-f2a9-4d9c-833b-610eb2b3a505.gif)
+
+## Installation
+
+Create a new Volto project (you can skip this step if you already have one):
+
+```
+npm install -g yo @plone/generator-volto
+yo @plone/volto my-volto-project --addon @cybroplone/volto-dark-reader
+cd my-volto-project
+```
+
+Add `@cybroplone/customizable-link-button`to your package.json:
+
+```
+"addons": [
+    "@cybroplone/volto-dark-reader"
+],
+
+"dependencies": {
+    "@cybroplone/volto-dark-reader": "*"
+}
+```
+
+Download and install the new add-on by running:
+
+```
+yarn install
+```
+
+Start Volto with:
+
+```
+yarn start
+```
+
+  Go to http://localhost:3000, The Dark mode button will be available .
+

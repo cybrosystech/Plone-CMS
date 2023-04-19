@@ -1,6 +1,6 @@
 {
   "name": "@cybroplone/customizable-link-button",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "customizable-link-button: Volto add-on which let users to customize a button and it's actions.",
   "author": "Cybrosys Technologies",
   "main": "src/index.js",

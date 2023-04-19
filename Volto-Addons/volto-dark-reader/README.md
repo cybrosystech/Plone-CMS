@@ -43,7 +43,7 @@ yo @plone/volto my-volto-project --addon @cybroplone/volto-dark-reader
 cd my-volto-project
 ```
 
-Add ``to your package.json:
+Add `@cybroplone/volto-dark-reader`to your package.json:
 
 ```
 "addons": [

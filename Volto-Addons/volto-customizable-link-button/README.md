@@ -10,9 +10,9 @@ The Volto Customizable Link Button is a powerful add-on for the Volto CMS that a
 
 # Features
 
-Easily create buttons that redirect to specific content
-Customize the look and feel of your buttons from the Volto sidebar
-Choose from a variety of pre-set colors and create your own custom style
+- Easily create buttons that redirect to specific content
+- Customize the look and feel of your buttons from the Volto sidebar
+- Choose from a variety of pre-set colors and create your own custom style
 
 # Screenshots
 

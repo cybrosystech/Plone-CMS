@@ -4,7 +4,7 @@
 ![branch badge](https://badgen.net/badge/main/passing/green)
 
 
-# volto-customizable-link-button
+# Volto Customizable Link Button
 
 The Volto Customizable Link Button is a powerful add-on for the Volto CMS that allows users to create  customizable button that can be used to redirect to specific content. With this add-on, you can easily create button that match the look and feel of your website and draw attention to important links.
 

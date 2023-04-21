@@ -1,0 +1,60 @@
+.bgcolor {
+    background: black;
+  }
+  
+  .block.listing.eventListing .text-col {
+    margin: 15px;
+    padding: 15px;
+  }
+  
+  .block.listing.eventListing .text-col h2 {
+    font-size: 30px;
+  }
+  
+  .block.listing.eventListing .text-col p {
+    font-size: 18px;
+    font-weight: 500;
+    color: antiquewhite;
+  }
+  .upcomingEvents{
+    color: teal;
+  }
+  .block.listing.eventListing .text-col a.ui.button {
+    color: white;
+    font-weight: normal;
+    background-color: teal;
+    border: solid 1px #004767;
+    margin-bottom: 10px;
+  }
+  
+  .block.listing.eventListing .listing-col .item {
+    background: white;
+    padding: 0;
+    margin: 1em;
+  }
+  
+  .block.listing.eventListing .listing-col .item .date {
+    background: yellowgreen;
+    color: white;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  .block.listing.eventListing .listing-col .item .item-body {
+    margin: 10px;
+  }
+  
+  .block.listing.eventListing .listing-col .item .item-body h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .block.listing.eventListing .listing-col .item .item-body .location {
+    color: grey;
+    font-weight: bold;
+  }
+  

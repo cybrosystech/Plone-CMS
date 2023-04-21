@@ -1,3 +1,7 @@
+![item badge](https://badgen.net/pypi/license/pip) 
+![release badge](https://badgen.net/badge/Release/v1.0.0/blue) 
+![branch badge](https://badgen.net/badge/main/passing/green)
+
 # Event Listing Template
 
 This is a customizable event listing template that can be used in a Volto-based project. This template provides a structured layout for displaying a list of events, and it can be easily modified to fit specific project requirements.

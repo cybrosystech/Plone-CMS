@@ -1,0 +1,24 @@
+{
+  "name": "@cybroplone/customizable-link-button",
+  "version": "1.0.0",
+  "description": "customizable-link-button: Volto add-on which let users to customize a button and it's actions.",
+  "author": "Cybrosys Technologies",
+  "main": "src/index.js",
+  "license": "MIT",
+  "keywords": [
+    "volto-addon",
+    "volto",
+    "plone",
+    "react"
+  ],
+  "scripts": {
+    "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon"
+  },
+  "devDependencies": {
+    "@plone/scripts": "*"
+  },
+  "dependencies": {
+    "react-color": "2.19.3",
+    "reactcss": "1.2.3"
+  }
+}

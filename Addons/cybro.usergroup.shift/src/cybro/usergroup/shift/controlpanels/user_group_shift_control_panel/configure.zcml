@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="cybro.usergroup.shift">
+
+  <browser:page
+    name="user_group_shift_control_panel-controlpanel"
+    for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+    class=".controlpanel.UserGroupShiftControlPanelView"
+    layer="cybro.usergroup.shift.interfaces.ICybroUsergroupShiftLayer"
+    permission="cmf.ManagePortal"
+    />
+
+  <include package="plone.restapi"  />
+  <adapter
+    factory=".controlpanel.UserGroupShiftControlPanelConfigletPanel"
+    name="user_group_shift_control_panel" />
+
+
+</configure>

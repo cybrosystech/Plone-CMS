@@ -1,0 +1,7 @@
+graft src/cybro.usergroup
+graft docs
+include *.rst
+exclude tox.ini
+exclude *.txt
+exclude .gitlab-ci.yml
+global-exclude *.pyc

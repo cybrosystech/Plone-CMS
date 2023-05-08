@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<object name="portal_controlpanel" xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+    i18n:domain="cybro.usergroup.shift">
+
+    <!-- -*- extra stuff goes here -*- -->
+
+  <configlet
+      i18n:attributes="title"
+      title="Multi User Shift"
+      action_id="user_group_shift_control_panel-controlpanel"
+      appId="user_group_shift_control_panel-controlpanel"
+      category="plone-users"
+      condition_expr=""
+      icon_expr=""
+      url_expr="string:${portal_url}/@@user_group_shift_control_panel-controlpanel"
+      visible="True">
+    <permission>Manage Portal</permission>
+  </configlet>
+
+
+</object>

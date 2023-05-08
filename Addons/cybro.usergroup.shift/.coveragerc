@@ -1,0 +1,6 @@
+[report]
+include =
+    src/cybro.usergroup/*
+omit =
+    */test*
+    */upgrades/*

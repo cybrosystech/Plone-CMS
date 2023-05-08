@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<registry
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+    i18n:domain="cybro.usergroup.shift">
+
+<!-- -*- extra stuff goes here -*- -->
+
+  <records interface="cybro.usergroup.shift.controlpanels.user_group_shift_control_panel.controlpanel.IUserGroupShiftControlPanel"
+           prefix="cybro.usergroup.shift.user_group_shift_control_panel" />
+
+
+</registry>

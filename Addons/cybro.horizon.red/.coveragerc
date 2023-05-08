@@ -1,0 +1,6 @@
+[report]
+include =
+    src/cybro/*
+omit =
+    */test*
+    */upgrades/*

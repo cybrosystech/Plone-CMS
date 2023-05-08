@@ -1,0 +1,4 @@
+graft src/cybro
+graft docs
+include *.rst
+global-exclude *.pyc

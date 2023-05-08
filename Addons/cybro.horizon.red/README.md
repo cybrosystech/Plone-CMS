@@ -28,7 +28,7 @@ Download the current directory
 ### Folder Structure 
 
 ```
-cybro.usergroup.shift/
+cybro.horizon.red/
 ├── base.cfg
 ├── CHANGES.rst
 ├── CONTRIBUTORS.rst

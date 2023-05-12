@@ -1,0 +1,19 @@
+{
+  "name": "@cybroplone/volto-site-status",
+  "version": "1.0.0",
+  "description": "Sitestatus is a Volto addon that provides a banner component for displaying messages in three different modes: success, warning, and error.",
+  "main": "src/index.js",
+  "license": "MIT",
+  "keywords": [
+    "volto-addon",
+    "volto",
+    "plone",
+    "react"
+  ],
+  "scripts": {
+    "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon"
+  },
+  "devDependencies": {
+    "@plone/scripts": "*"
+  }
+}

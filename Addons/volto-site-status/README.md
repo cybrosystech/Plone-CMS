@@ -4,6 +4,7 @@
 ![release badge](https://badgen.net/badge/version/v1.0.0/blue) 
 
 
+```This will only work with it's Plone dependant module``` : [cybroplone.sitestatus](https://github.com/cybrosystech/Plone-CMS/tree/main/Addons/cybroplone.sitestatus)
 
 
 # Volto Site Status Banner

@@ -1,0 +1,5 @@
+=====================
+cybroplone.sitestatus
+=====================
+
+User documentation

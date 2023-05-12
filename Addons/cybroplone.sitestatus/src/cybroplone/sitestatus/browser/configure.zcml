@@ -1,0 +1,15 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="cybroplone.sitestatus">
+
+  <browser:page
+    name="site-status-controlpanel"
+    for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+    permission="cmf.ManagePortal"
+    class=".controlpanel.SiteStatusControlPanelFormWrapper"
+    layer="cybroplone.sitestatus.interfaces.ISiteStatusLayer"
+  />
+
+</configure>

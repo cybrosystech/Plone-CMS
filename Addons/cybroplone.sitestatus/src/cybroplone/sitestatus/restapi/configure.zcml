@@ -1,0 +1,22 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:plone="http://namespaces.plone.org/plone">
+
+  <include package="plone.restapi" />
+
+  <adapter
+    factory=".controlpanel.SiteStatusControlpanel"
+    name="site-status-controlpanel"
+  />
+
+    <plone:service
+    method="GET"
+    name="@site-status"
+    for="Products.CMFCore.interfaces.ISiteRoot"
+    factory=".get.SiteStatusGet"
+    permission="zope2.View"
+  />
+
+
+
+</configure>

@@ -4,7 +4,6 @@ import './aurora.css';
 
 const AuroraView = (props) => {
   const { data } = props;
-  console.log(typeof data.title);
 
   return (
     <>

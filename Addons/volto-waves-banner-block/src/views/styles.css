@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+.waves-container{
+  margin-top: -27px !important;
+
+}
+
+.waves-header-h1 {
+  font-family: 'Ubuntu', sans-serif;
+    font-weight:500;
+  margin-bottom: 3px;
+  letter-spacing: 2px;
+  font-size:50px;
+}
+.waves-subtitle-p {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  font-size:18px;
+}
+
+
+
+.waves-container  .header {
+  position:relative;
+  text-align:center;
+  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+  color:white;
+}
+
+
+.waves-container .inner-header {
+  justify-content: center;
+  height: 50vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  display: flex;
+  
+}
+
+.waves-container .flex { /*Flexbox for containers*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.waves-container .waves {
+  position:relative;
+  width: 100vw;
+  height:15vh;
+  margin-bottom:-7px; /*Fix for safari gap*/
+  min-height:100px;
+  max-height:150px;
+}
+
+.waves-container .content {
+  position:relative;
+  height:20vh;
+  text-align:center;
+  background-color: white;
+}
+
+/* Animation */
+
+.waves-container .parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.waves-container .parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.waves-container .parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.waves-container .parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.waves-container .parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves-container .waves {
+    height:40px;
+    min-height:40px;
+  }
+  .waves-container .content {
+    height:30vh;
+  }
+  .waves-header-h1 {
+    font-size:24px;
+  }
+}

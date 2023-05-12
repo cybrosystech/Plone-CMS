@@ -1,0 +1,19 @@
+{
+  "name": "@cybroplone/volto-waves-banner-block",
+  "version": "1.0.0",
+  "description": "volto-waves-banner-block: A block which can be used a banner anywhere",
+  "main": "src/index.js",
+  "license": "MIT",
+  "keywords": [
+    "volto-addon",
+    "volto",
+    "plone",
+    "react"
+  ],
+  "scripts": {
+    "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon"
+  },
+  "devDependencies": {
+    "@plone/scripts": "*"
+  }
+}

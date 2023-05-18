@@ -8,8 +8,6 @@
 
 * Version: 6.0.2
 * Release date: Monday, February 27, 2023
-* Check the [release schedule](https://plone.org/download/release-schedule).
-* Read the [upgrade guide](https://6.docs.plone.org/upgrade/index.html), explaining the biggest changes compared to 5.2.
 
 
 # How to use the installer 

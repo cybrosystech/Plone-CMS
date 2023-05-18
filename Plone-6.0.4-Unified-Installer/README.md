@@ -1,33 +1,82 @@
-# Plone-6.0.2-Unified-Installer
 
-This installer package includes the following dependencies:
-
-
-
-* subprocess
-* tkinter
-* messagebox from tkinter
-* scrolledtext from tkinter
-* customtkinter
-* os
-* datetime
-* logging
-* PIL from Pillow
-* Cairosvg
-
-The Plone-6.0.2 Unified Installer is a package that provides an easy way to install the Plone content management system on your computer. This installer package includes various dependencies that are required for the proper functioning of Plone. Here's an overview of the dependencies included in this package:
+![item badge](https://badgen.net/pypi/license/pip) 
+![release badge](https://badgen.net/badge/Release/v1.0.0/blue) 
+![branch badge](https://badgen.net/badge/main/passing/green)
+ 
+# Plone-6.0.4-Unified-Installer
 
 
-1. subprocess: This is a Python module that allows you to spawn new processes, connect to their input/output/error pipes, and obtain their return codes. It is used in the installer to run various commands during the installation process.
-2. tkinter: This is a standard Python module that provides a set of tools for creating graphical user interfaces (GUIs). It is used by the installer to create the graphical interface that guides you through the installation process.
-3. messagebox from tkinter: This is a specific component of the tkinter module that provides a simple way to display message boxes to the user. It is used by the installer to display various messages during the installation process.
-4. scrolledtext from tkinter: This is another component of the tkinter module that provides a widget for displaying and editing text. It is used by the installer to display the installation log, which allows you to view the progress of the installation process.
-5. customtkinter: This is a custom module that provides additional functionality to the tkinter module. It is used by the installer to create custom GUI components.
-6. os: This is a standard Python module that provides a way to interact with the operating system. It is used by the installer to perform various file operations during the installation process.
-7. datetime: This is a standard Python module that provides various classes for working with dates and times. It is used by the installer to display the date and time of the installation process.
-8. logging: This is a standard Python module that provides a way to log messages from your Python code. It is used by the installer to log various events during the installation process.
-9. PIL from Pillow: This is a Python Imaging Library (PIL) that provides tools for working with images. It is used by the installer to resize and optimize images during the installation process.
-10. cairosvg: This is a Python library that provides tools for working with SVG files. It is used by the installer to convert SVG files to PNG images during the installation process.
+* Version: 6.0.4
 
-Overall, these dependencies are essential to the functioning of the Plone-6.0.2 Unified Installer, and they work together to ensure that the installation process is smooth and straightforward.
+
+# How to use the installer 
+
+
+To install Plone 6.0.4 Follow the below instructions
+
+**Step 1: Download the installer**
+
+
+```
+wget https://github.com/cybrosystech/Plone-CMS/raw/main/Plone-6.0.4-Unified-Installer/Plone-6.0.4-Unified-Installer
+```
+
+
+**Step 2: Add execute permissions to the installer**
+
+
+
+```
+chmod +x Plone-6.0.4-Unified-Installer
+```
+
+
+**Step 3: Open the Installer**
+
+
+![image2](https://github.com/cybrosystech/Plone-CMS/assets/129945593/1ab04fd5-b4ba-4271-9e93-939fe79ce514)
+
+
+**Step 4: Set the Installation directory in which Plone is to be installed**
+
+![image3](https://user-images.githubusercontent.com/129945593/230540699-f05c351e-bec7-42e8-8b9c-bf31f98c15d8.png)
+
+
+
+    				
+
+**Step 5: Enter the System user password to execute commands with administrative privileges**
+
+![image4](https://user-images.githubusercontent.com/129945593/230540973-7227c801-7940-429d-8585-227286ddc621.png)
+
+
+**Step 6: Enter the administrative password for your Plone instance**
+
+![image5](https://user-images.githubusercontent.com/129945593/230541132-0f93863b-141f-453f-b8c5-2c6f21119480.png)
+
+
+**Step 7: The installation process will take from 10 to 25 minutes**
+
+![Screenshot from 2023-05-18 16-01-52](https://github.com/cybrosystech/Plone-CMS/assets/129945593/b33e1bd7-ea5b-4c11-90e7-4c4c35fc3eda)
+
+
+
+**The installation is completed**
+
+![Screenshot from 2023-05-18 16-04-35](https://github.com/cybrosystech/Plone-CMS/assets/129945593/b3481da5-43b0-4e07-b2a9-01c9f9e5ac5c)
+
+
+
+**Step 8: Open the terminal in which the Plone instance is created**
+
+The Plone instance will be up and running at http://localhost:8080/
+
+
+```
+./bin/buildout
+./bin/instance start
+```
+
+
+![final](https://user-images.githubusercontent.com/129945593/230541495-9ffde634-8a5c-419b-b9c4-96baf3c82003.png)
 

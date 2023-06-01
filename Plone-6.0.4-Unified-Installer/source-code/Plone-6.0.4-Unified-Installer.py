@@ -332,7 +332,6 @@ parts = instance
 recipe = plone.recipe.zope2instance
 eggs =
     Plone
-    plone.volto
 user = admin:{plone_admin_pass}''')
                 if os.path.isfile("buildout.cfg"):
                     self.scroll_widget.insert(tk.END, "Buildout "

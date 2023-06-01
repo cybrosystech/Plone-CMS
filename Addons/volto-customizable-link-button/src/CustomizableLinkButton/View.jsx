@@ -7,9 +7,7 @@ import './styles.less';
 const CustomButtonView = (props) => {
   const { data } = props;
 
-  if (data.BlockStretch){
 
-  }
 
   return (
     <div className={`block highlight ${data.BlockStretch == true ? "full-width" : ""}`} style={{backgroundColor:data.BGColor}}>

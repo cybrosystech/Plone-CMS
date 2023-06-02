@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { Portal } from 'react-portal';
 import cx from 'classnames';
 import { Message, Container } from 'semantic-ui-react';
-import { getStatusConfig } from '@cybroplone/site-status/actions';
+import { getStatusConfig } from '@cybroplone/volto-site-status/actions';
 import './less/statusbanner.less';
 
 /* Define the SiteStatusBanner component */
